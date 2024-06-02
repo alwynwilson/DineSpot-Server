@@ -5,7 +5,7 @@ const MPServer = jsonServer.create()
 // create middleware used by JSON Server
 const middleware = jsonServer.defaults()
 // set up route for json file in sever
-const route = jsonServer.router('db.json')
+const route = jsonServer.router('restaurants.json')
 // set up port for running server app
 const PORT = 3000 || process.env.PORT
 
